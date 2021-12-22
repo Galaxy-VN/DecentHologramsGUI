@@ -1,0 +1,31 @@
+Plugin-Depend-Download: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Downloading depend plugin &f{0} &7...'
+Plugin-Depend-Installed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Successfullly downloaded &3{0} &7, restarting the server...'
+Plugin-Depend-Install-Failed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Failed to install depend plugin &c{0} &7...'
+Plugin-Dependency-Hooked: '&8[&bDecentHolograms§9GUI&8] &6HOOK &8| &7Dependency &f{0} &7is hooked.'
+Plugin-Loaded:
+  - ''
+  - '&bDecentHolograms§9GUI &7loading...'
+  - ''
+Plugin-Enabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Loaded. DecentHologramsGUI &av{0} &7has been enabled.'
+Plugin-Disabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Disabled. Thanks for using :)'
+Plugin-Success: '&8[&bDecentHolograms§9GUI&8] &7Successfully!'
+
+Create-Hologram: '&8[&bDecentHolograms§9GUI&8] &7Vui lòng nhập &a&ntên &7hologram bạn muốn.'
+
+Success: '&aThành Công'
+
+# Gui Main
+Gui-Main-Title: 'Giao Diện Holograms'
+Gui-Main-Close: 'Đóng Giao Diện'
+Gui-Main-Hologram-Info-Info: 'Thông Tin'
+Gui-Main-Hologram-Info-Enabled: 'Đang bật'
+Gui-Main-Hologram-Info-Pages: 'Số trang'
+Gui-Main-Hologram-Info-Click-Edit: 'Nhấn để chỉnh sửa'
+Gui-Main-Hologram-Create-Name: 'Tạo Thêm Hologram'
+Gui-Main-Previous-Button-Name: 'Trang Trước'
+Gui-Main-Next-Button-Name: 'Trang Tiếp Theo'
+
+# Gui Options
+Gui-Options-Title: 'Tùy Chọn Hologram'
+Gui-Options-Back: 'Quay Về'
+Gui-Options-Pages: 'Trang Hologram'

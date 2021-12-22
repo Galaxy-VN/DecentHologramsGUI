@@ -1,0 +1,35 @@
+Plugin-Depend-Download: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Downloading depend plugin &f{0} &7...'
+Plugin-Depend-Installed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Successfullly downloaded &3{0} &7, restarting the server...'
+Plugin-Depend-Install-Failed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Failed to install depend plugin &c{0} &7...'
+Plugin-Dependency-Hooked: '&8[&bDecentHolograms§9GUI&8] &6HOOK &8| &7Dependency &f{0} &7is hooked.'
+Plugin-Loaded:
+  - ''
+  - '&bDecentHolograms§9GUI &7loading...'
+  - ''
+Plugin-Enabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Loaded. DecentHologramsGUI &av{0} &7has been enabled.'
+Plugin-Disabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Disabled. Thanks for using :)'
+Plugin-Success: '&8[&bDecentHolograms§9GUI&8] &7Successfully!'
+
+Create-Hologram: '&8[&bDecentHolograms§9GUI&8] &7Please enter &a&nname &7hologram you want.'
+
+Success: '&aSuccessfully'
+
+# Gui Main
+Gui-Main-Title: 'Holograms Menu'
+Gui-Main-Close: 'Close Menu'
+Gui-Main-Hologram-Info-Info: 'Infomation'
+Gui-Main-Hologram-Info-Enabled: 'Enabled'
+Gui-Main-Hologram-Info-Pages: 'Pages'
+Gui-Main-Hologram-Info-Click-Edit: 'Click to edit'
+Gui-Main-Hologram-Create-Name: 'Create Hologram'
+Gui-Main-Previous-Button-Name: 'Previous Page'
+Gui-Main-Next-Button-Name: 'Next Page'
+
+# Gui Options
+Gui-Options-Title: 'Hologram Options'
+Gui-Options-Back: 'Go Back'
+Gui-Options-Pages: 'Hologram Pages'
+
+# Gui Pages
+Gui-Pages-Title: 'Hologram Pages'
+Gui-Pages-Back: 'Go Back'
