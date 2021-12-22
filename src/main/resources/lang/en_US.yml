@@ -1,16 +1,16 @@
-Plugin-Depend-Download: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Downloading depend plugin &f{0} &7...'
-Plugin-Depend-Installed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Successfullly downloaded &3{0} &7, restarting the server...'
-Plugin-Depend-Install-Failed: '&8[&bDecentHolograms§9GUI&8] &eDEPEND &8| &7Failed to install depend plugin &c{0} &7...'
-Plugin-Dependency-Hooked: '&8[&bDecentHolograms§9GUI&8] &6HOOK &8| &7Dependency &f{0} &7is hooked.'
-Plugin-Loaded:
-  - ''
-  - '&bDecentHolograms§9GUI &7loading...'
-  - ''
-Plugin-Enabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Loaded. DecentHologramsGUI &av{0} &7has been enabled.'
-Plugin-Disabled: '&8[&bDecentHolograms§9GUI&8] &2INFO &8| &7Disabled. Thanks for using :)'
-Plugin-Success: '&8[&bDecentHolograms§9GUI&8] &7Successfully!'
+Plugin-Loading:
+  - '&r'
+  - '&7Loading &3DecentHolograms&bGUI... &8{0}'
+  - '&r'
+Plugin-Depend-Download: '&8[&bDecentHolograms§3GUI&8] &eDEPEND &8| &7Downloading depend plugin &f{0} &7...'
+Plugin-Depend-Installed: '&8[&bDecentHolograms§3GUI&8] &eDEPEND &8| &7Successfullly downloaded &3{0} &7, restarting the server...'
+Plugin-Depend-Install-Failed: '&8[&bDecentHolograms§3GUI&8] &eDEPEND &8| &7Failed to install depend plugin &c{0} &7...'
+Plugin-Dependency-Hooked: '&8[&bDecentHolograms§3GUI&8] &6HOOK &8| &7Dependency &f{0} &7is hooked.'
+Plugin-Enabled: '&8[&bDecentHolograms§3GUI&8] &2INFO &8| &7Loaded. DecentHologramsGUI &av{0} &7has been enabled.'
+Plugin-Disabled: '&8[&bDecentHolograms§3GUI&8] &2INFO &8| &7Disabled. Thanks for using :)'
+Plugin-Success: '&8[&bDecentHolograms§3GUI&8] &7Successfully!'
 
-Create-Hologram: '&8[&bDecentHolograms§9GUI&8] &7Please enter &a&nname &7hologram you want.'
+Create-Hologram: '&8[&bDecentHolograms§3GUI&8] &7Please enter &a&nname &7hologram you want.'
 
 Success: '&aSuccessfully'
 

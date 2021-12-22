@@ -17,7 +17,7 @@ object DecentHologramsGUI : Plugin() {
     val plugin by lazy { BukkitPlugin.getInstance() }
 
     override fun onLoad() {
-        console().sendLang("Plugin-Loaded", Bukkit.getVersion())
+        console().sendLang("Plugin-Loading", Bukkit.getVersion())
 
         if (!hookHolograms()) {
             return
