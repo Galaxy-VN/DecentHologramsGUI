@@ -14,22 +14,36 @@ Create-Hologram: '&8[&bDecentHolograms§3GUI&8] &7Please enter &a&nname &7hologr
 
 Success: '&aSuccessfully'
 
+# Gui
+Gui-Click-Edit: 'Click to edit'
+Gui-Previous-Button: 'Previous Page'
+Gui-Next-Button: 'Next Page'
+Gui-Close: 'Close Menu'
+Gui-Back: 'Go Back'
+
+Gui-Info: 'Infomation'
+
 # Gui Main
 Gui-Main-Title: 'Holograms Menu'
-Gui-Main-Close: 'Close Menu'
-Gui-Main-Hologram-Info-Info: 'Infomation'
 Gui-Main-Hologram-Info-Enabled: 'Enabled'
 Gui-Main-Hologram-Info-Pages: 'Pages'
-Gui-Main-Hologram-Info-Click-Edit: 'Click to edit'
 Gui-Main-Hologram-Create-Name: 'Create Hologram'
-Gui-Main-Previous-Button-Name: 'Previous Page'
-Gui-Main-Next-Button-Name: 'Next Page'
 
 # Gui Options
 Gui-Options-Title: 'Hologram Options'
-Gui-Options-Back: 'Go Back'
 Gui-Options-Pages: 'Hologram Pages'
 
 # Gui Pages
 Gui-Pages-Title: 'Hologram Pages'
-Gui-Pages-Back: 'Go Back'
+Gui-Pages-Add: 'Add Page'
+Gui-Pages-Page: 'Page'
+Gui-Pages-Lines: 'Line(s)'
+Gui-Pages-Actions: 'Action(s)'
+
+# Gui Page Options
+Gui-Page-Options-Title: 'Hologram Page Options'
+Gui-Page-Options-Lines: 'Page Line(s)'
+Gui-Page-Options-Actions: 'Page Action(s)'
+
+# Gui Lines
+Gui-Lines-Title: 'Hologram Lines'

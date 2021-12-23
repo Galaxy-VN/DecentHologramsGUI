@@ -18,18 +18,26 @@ Create-Hologram: '&8[&bDecentHolograms§3GUI&8] &7Vui lòng nhập &a&ntên &7ho
 
 Success: '&aThành Công'
 
+# Gui
+Gui-Click-Edit: 'Nhấn để chỉnh sửa'
+Gui-Previous-Button: 'Trang Trước'
+Gui-Next-Button: 'Trang Tiếp Theo'
+Gui-Close: 'Đóng Giao Diện'
+Gui-Back: 'Quay Về'
+
+Gui-Info: 'Thông Tin'
+
 # Gui Main
 Gui-Main-Title: 'Giao Diện Holograms'
-Gui-Main-Close: 'Đóng Giao Diện'
-Gui-Main-Hologram-Info-Info: 'Thông Tin'
 Gui-Main-Hologram-Info-Enabled: 'Đang bật'
 Gui-Main-Hologram-Info-Pages: 'Số trang'
-Gui-Main-Hologram-Info-Click-Edit: 'Nhấn để chỉnh sửa'
 Gui-Main-Hologram-Create-Name: 'Tạo Thêm Hologram'
-Gui-Main-Previous-Button-Name: 'Trang Trước'
-Gui-Main-Next-Button-Name: 'Trang Tiếp Theo'
 
 # Gui Options
 Gui-Options-Title: 'Tùy Chọn Hologram'
-Gui-Options-Back: 'Quay Về'
 Gui-Options-Pages: 'Trang Hologram'
+
+# Gui Pages
+Gui-Pages-Title: 'Trang Hologram'
+Gui-Pages-Page: 'Trang'
+Gui-Pages-Lines: 'Dòng'

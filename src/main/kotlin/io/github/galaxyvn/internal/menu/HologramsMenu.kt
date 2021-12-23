@@ -29,12 +29,13 @@ object HologramsMenu {
                     name = "§7Hologram§a ${element.name}"
                     lore += listOf(
                         "",
-                        "§6 ● §8${player.asLangText("Gui-Main-Hologram-Info-Info")}:",
+                        "§6 ● §8${player.asLangText("Gui-Info")}:",
                         "   §7 Id: ${element.id}",
                         "   §7 ${player.asLangText("Gui-Main-Hologram-Info-Enabled")}: ${element.isEnabled}",
                         "   §7 ${player.asLangText("Gui-Main-Hologram-Info-Pages")}: ${element.size()}",
                         "",
-                        "§8➥ §e${player.asLangText("Gui-Main-Hologram-Info-Click-Edit")}",
+                        "§8➥ §e${player.asLangText("Gui-Click-Edit")}",
+                        ""
                     )
                 }
             }
@@ -50,7 +51,7 @@ object HologramsMenu {
                 })
             }
             set(8, buildItem(XMaterial.RED_STAINED_GLASS_PANE) {
-                name = "§c${player.asLangText("Gui-Main-Close")}"
+                name = "§c${player.asLangText("Gui-Close")}"
             }) {
                 player.closeInventory()
             }
@@ -68,7 +69,7 @@ object HologramsMenu {
             setPreviousPage(47) { _, hasPreviousPage ->
                 if (hasPreviousPage) {
                     buildItem(XMaterial.PLAYER_HEAD) {
-                        name = "§f${player.asLangText("Gui-Main-Previous-Button-Name")}"
+                        name = "§f${player.asLangText("Gui-Previous-Button")}"
                         skullOwner = "MHF_ArrowLeft"
                     }
                 } else {
@@ -80,7 +81,7 @@ object HologramsMenu {
             setNextPage(51) { _, hasNextPage ->
                 if (hasNextPage) {
                     buildItem(XMaterial.PLAYER_HEAD) {
-                        name = "§f${player.asLangText("Gui-Main-Next-Button-Name")}"
+                        name = "§f${player.asLangText("Gui-Next-Button")}"
                         skullOwner = "MHF_ArrowRight"
                     }
                 } else {

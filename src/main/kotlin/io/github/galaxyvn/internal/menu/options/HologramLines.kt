@@ -1,6 +1,5 @@
-package io.github.galaxyvn.internal.menu.options.edit
+package io.github.galaxyvn.internal.menu.options
 
-import eu.decentsoftware.holograms.api.DHAPI
 import eu.decentsoftware.holograms.api.holograms.Hologram
 import eu.decentsoftware.holograms.api.holograms.HologramLine
 import eu.decentsoftware.holograms.api.holograms.HologramPage
@@ -8,12 +7,13 @@ import org.bukkit.entity.Player
 import taboolib.library.xseries.XMaterial
 import taboolib.module.ui.openMenu
 import taboolib.module.ui.type.Linked
+import taboolib.platform.util.asLangText
 import taboolib.platform.util.buildItem
 
 object HologramLines {
     
     fun open(player: Player, hologram: Hologram, page: HologramPage) {
-        player.openMenu<Linked<HologramLine>>() {
+        player.openMenu<Linked<HologramLine>>(player.asLangText("Gui-Lines-Title")) {
             rows(6)
             slots(listOf(
                 9, 10, 11, 12, 13, 14, 15, 16, 17,
